@@ -1,0 +1,252 @@
+// Ultra Extra small devices (portrait phones, less than 450px)
+@media (max-width: 450px) {
+    .filters {
+        height: 160px !important;
+        flex-direction: column !important;
+
+    }
+
+
+    #backToHome {
+        display: none !important;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .projectsGallery {
+        padding: 10px !important
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    #skills {
+        height: 650px !important;
+    }
+
+    .nav-children {
+        font-size: 11px !important;
+    }
+
+    .nav-children-mobile {
+        font-size: 15px !important;
+    }
+
+    .mobile-menu-show {
+        left: 0px !important;
+    }
+
+    .mobile-menu-show {
+        width: 100vw !important;
+    }
+
+    .projectsChip {
+        width: 100px !important;
+    }
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .nav-children-dx {
+        display: none;
+    }
+
+    .logoImg {
+        width: 150px;
+    }
+
+    .v-application {
+        .langVSelect {
+            display: none;
+        }
+    }
+
+    #about {
+        height: auto !important;
+    }
+
+    .boxPortfolio {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .box-sx {
+        position: relative !important;
+        z-index: 9900 !important;
+
+    }
+
+    .trianglesBox {
+        // display: none;
+        width: 100px !important;
+        z-index: 9000 !important;
+        position: absolute !important;
+        top: 0 !important;
+        right: 300px !important;
+    }
+
+    .projectImage2 {
+        width: 90% !important;
+
+    }
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .my-navbar {
+        .nav-children {
+            margin: 0px 5px !important;
+        }
+    }
+
+    .projectsGallery {
+        .projectCard {
+
+            height: auto !important;
+            flex-direction: column !important;
+        }
+    }
+
+    .projectsGallery {
+        .projectImage {
+            margin: 20px 10px !important;
+            width: 50% !important;
+        }
+    }
+
+    .boxPortfolio {
+        h1 {
+            font-size: 32px !important;
+        }
+
+        h2 {
+            font-size: 22px !important;
+        }
+
+        h3 {
+            font-size: 22px !important;
+        }
+
+        h4 {
+            font-size: 18px !important;
+        }
+
+        h5 {
+            font-size: 16px !important;
+        }
+    }
+
+    #home,
+    #projects,
+    #about,
+    #skills,
+    #contact {
+        padding: 30px 15px !important;
+        align-items: center !important;
+
+        .box-sx {
+            width: 100%;
+        }
+    }
+
+    #home,
+    #projects,
+    #about {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    #home {
+        height: 330px !important;
+    }
+
+
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+// ----------
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .nav-dx-menu {
+        i {
+            display: none;
+        }
+    }
+
+    .logoImg {
+        width: 250px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .nav-children-mobile {
+        display: none;
+    }
+
+    .v-application {
+        .langVSelectMobile {
+            display: none;
+        }
+    }
+
+
+
+    .my-navbar {
+        .nav-children {
+            margin: 0px 15px !important;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// ----------
+// Ultra Small devices (small phones, 320px and up)
+
+@media (min-width: 320px) and (max-width: 450px) {}
+
+@media (min-width: 450px) and (max-width: 576px) {
+    .filters {
+        height: 120px !important;
+        flex-direction: column !important;
+
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
