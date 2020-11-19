@@ -1,3 +1,6 @@
 laravel app
 
-this is the laravel api for all my portfolio projects, hosted on heroku
+this is a laravel api with vue frontend.
+vuex for state management.
+auth and routes protection with laravel.
+mysql db.
